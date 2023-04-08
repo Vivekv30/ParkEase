@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+section
+{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   /*border: 2px solid;*/
+}
+section .displaysection
+{
+	width: 61%;
+}
+section .displaysection form
+{
+	width: 100%;
+	height: 42px;
+	border: 2px solid rgb(192, 192, 192);
+	background-color: rgb(222, 121, 67);
+}
+section .displaysection form input
+{
+	margin-left: 50px;
+	margin-top: 5px;
+	width: 100px;
+	height: 27px;
+	padding-left: 5px;	
+	border: none;
+	border-radius: 5px;
+}
+	
+section .displaysection form .rrr
+{
+	margin-top: 2px;
+	width: 150px;
+	height: 27px;
+	background-color: silver;
+	border-radius: 5px;
+	border: none;	
+}
+section .displaysection table
+{
+	width: 100%;
+}
+section .displaysection table,thead,th,td
+{
+	padding :20px;
+	border: 2px solid rgb(192, 192, 192);
+	border-collapse: collapse;
+}
+.checkout
+{
+	margin-top: 40px;
+	border: 2px solid black;
+}
